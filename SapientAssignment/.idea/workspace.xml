@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4308bed-9544-4eb8-a84f-d78ed111cbfe" name="Default Changelist" comment="" />
+    <list default="true" id="a4308bed-9544-4eb8-a84f-d78ed111cbfe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sessiondata.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tom/CommonUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tom/Question1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tom/Question2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tom/SapientAssignment1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tom/SessionQuestion.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SapientAssignment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SapientAssignment-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/SapientAssignment-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.scalatest.tools.DiscoverySuite-66baed7c-7a40-4122-9e88-cab8409ddad4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,6 +26,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -22,11 +41,14 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1c51gz5Vx0UxCYKB2xV0ls0RBk9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,10 +62,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.Build">
+  <component name="RunManager" selected="Application.SessionQuestion">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="HelloWorld" />
       <module name="SapientAssignment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.tom.Question1" />
+      <module name="SapientAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SapientAssignment1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.tom.SapientAssignment1" />
+      <module name="SapientAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SessionQuestion" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.tom.SessionQuestion" />
+      <module name="SapientAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,10 +137,16 @@
     </configuration>
     <list>
       <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.Question1" />
+      <item itemvalue="Application.SapientAssignment1" />
       <item itemvalue="Maven.Build" />
+      <item itemvalue="Application.SessionQuestion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SessionQuestion" />
+        <item itemvalue="Application.SapientAssignment1" />
+        <item itemvalue="Application.Question1" />
         <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
@@ -96,5 +163,18 @@
       <updated>1589803755259</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
