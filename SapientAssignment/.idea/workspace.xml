@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4308bed-9544-4eb8-a84f-d78ed111cbfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sessiondata.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tom/CommonUtils.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tom/Question1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tom/Question2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tom/SapientAssignment1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tom/SessionQuestion.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tom/CaseClassExample.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SapientAssignment.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SapientAssignment-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/SapientAssignment-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.scalatest.tools.DiscoverySuite-66baed7c-7a40-4122-9e88-cab8409ddad4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tom/SessionQuestion$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tom/SessionQuestion$.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +50,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SessionQuestion">
+  <component name="RunManager" selected="Application.CaseClassExample">
+    <configuration name="CaseClassExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.tom.CaseClassExample" />
+      <module name="SapientAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="HelloWorld" />
       <module name="SapientAssignment" />
@@ -139,11 +140,13 @@
       <item itemvalue="Application.HelloWorld" />
       <item itemvalue="Application.Question1" />
       <item itemvalue="Application.SapientAssignment1" />
-      <item itemvalue="Maven.Build" />
       <item itemvalue="Application.SessionQuestion" />
+      <item itemvalue="Application.CaseClassExample" />
+      <item itemvalue="Maven.Build" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CaseClassExample" />
         <item itemvalue="Application.SessionQuestion" />
         <item itemvalue="Application.SapientAssignment1" />
         <item itemvalue="Application.Question1" />
